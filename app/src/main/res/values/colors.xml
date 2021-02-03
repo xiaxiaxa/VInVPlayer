@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="xw_yellow">#FF9800</color>
+    <color name="xw_white">#FFFFFFFF</color>
+    <color name="xw_red">#FF0000</color>
+    <color name="xw_text">#7486e7</color>
+
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+</resources>

@@ -1,0 +1,2 @@
+include ':app', ':player', ':helper', ':net', ':vlc',
+rootProject.name='vplayer'

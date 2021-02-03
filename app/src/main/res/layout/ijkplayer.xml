@@ -1,0 +1,35 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_dark"
+    android:keepScreenOn="true">
+
+    <FrameLayout
+        android:id="@+id/video_surface_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:foregroundGravity="clip_horizontal|clip_vertical"
+        tools:ignore="true">
+
+
+        <com.xw.vplayer.ui.PlayerView
+
+            android:id="@+id/ijk_player"
+            android:layout_width="1920px"
+            android:layout_height="1080px" />
+
+        <SurfaceView
+            android:id="@+id/surface3"
+            android:layout_width="1920px"
+            android:layout_height="1080px"
+            android:visibility="gone"></SurfaceView>
+
+        <com.xw.vplayer.activity.MgtvPlayerTestView
+            android:id="@+id/mgtv_player1"
+            android:layout_width="600px"
+            android:layout_height="600px" />
+
+    </FrameLayout>
+</FrameLayout>
